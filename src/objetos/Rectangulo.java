@@ -151,6 +151,7 @@ public class Rectangulo {
 		StdDraw.setPenRadius(0.005);
 		StdDraw.filledRectangle(centro().getX(), centro().getY(), base() / 2, altura() / 2);
 	}
+	
 
 	public void mover() {
 		supIzq.mover();
